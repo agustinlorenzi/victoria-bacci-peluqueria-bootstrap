@@ -1,0 +1,181 @@
+*{
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/* clases del nav */
+
+.navbar-nav me-auto mb-2 mb-lg-0{
+    width: 80vw;    
+}
+
+.nav-color{
+    background-color: rgba(104, 102, 102, 0.411);
+    padding-bottom: 10px;
+}
+
+.navbar ul{
+    padding-left: 150px;    
+    font-size: 20px;
+}
+
+.navbar-brand img{
+    width: 200px;
+}
+
+.navbar-toggler{
+    background-color: bisque;
+    margin: 10px;
+}
+
+/* clases del carrusel */
+
+.carousel slide{
+    position: relative;
+    top: 380px;
+}
+
+.carousel-inner img{
+    margin: 130px 0px 0px;
+}
+
+/* clases area de servicios de la home */
+
+.row{
+    align-items: center;    
+}
+
+.fotos2 img{
+    width: 90vw;
+}
+
+/* footer en general*/
+
+.bg-light{
+    background-color: rgba(109, 106, 106, 0.781);
+}
+
+.mapa{ 
+    width: 92vw;
+}
+
+/* clases de productos */
+
+.main{
+    position: relative;
+    top: 130px;
+}
+
+
+.footer-productos{
+    position: relative;
+    top: 130px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn:hover{
+    background-color: burlywood;
+    color: blue;
+}
+
+/* clases para contacto */
+
+.boton{ 
+    display: flex;
+    align-items: center;
+}
+
+.comentario{
+    height: 30vh;    
+}
+
+.contacto{ 
+    position: absolute;
+    top: 130px;    
+    align-items: center;
+    width: 100vw;
+}
+
+.contacto form{
+    width: 95vw;    
+    align-items: center;
+}
+
+.footer-contacto{
+    position: absolute;
+    top: 600px;
+    width: 100vw;
+}
+
+/* clases consejos */
+
+.main-consejos{
+    position: relative;
+    top: 130px;
+}
+
+.fotos1 img{
+    width: 90vw;
+}
+
+/* clases de servicios */
+
+.main-servicios{
+    position: relative;
+    top: 130px;
+}
+
+.footer-servicios{
+    position: relative;
+    top: 130px;
+}
+
+/* medias query */
+
+@media (min-width: 768px){
+
+    .fotos1 img{
+        width: 30vw;
+    }
+
+    .fotos2 img{
+        width: 25vw;
+    }    
+
+    .footer-contacto{        
+        top: 610px;        
+    }
+
+    .local ul{
+        margin: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }      
+
+    .local ul li img{
+        width: 28vw;
+        height: auto;        
+    }        
+
+    .contacto form{
+        width: 50vw;
+    }
+
+    .mapa{ 
+        width: 40vw;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .footer-contacto{       
+        top: 665px;        
+    }
+}
+
