@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="./img/icono-para-barra.jpg">
 </head>
 
-<body>
+<body class="bg-secondary bg-gradient bg-opacity-25" >
     <header class="fixed-top nav-color">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
@@ -53,7 +53,7 @@
         </nav>
     </header>
 
-    <main class="text-bg-secondary p-3 main">
+    <main class="text-bg-secondary bg-opacity-75 p-3 main">
         <!-- Carrusel de bootstrap -->
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -81,35 +81,34 @@
         <!-- fin del carrusel -->
 
         <section>
-            <h1 class="text-light bg-dark fs-3 text-center mt-2">VICTORIA BACCI PELUQUERIA</h1>
-            <P class="text-white fw-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, iste
-                voluptates. Non perferendis
-                recusandae,
-                nostrum iste unde similique accusamus nobis architecto! Possimus error ratione a quis vitae
-                exercitationem
-                facilis numquam.</P>
+            <h1 class="text-light bg-dark fs-4 text-center mt-2">VICTORIA BACCI PELUQUERIA</h1>
+            <P class="text-white fw-bold text-center">Un Establecimiento con fuerte impronta de lo moderno. Contamos con todas las
+                Tecnologias de última generación y atención especializada para hacer que tu experiencia sea realmente
+                placentera. Ademas ofrecemos una exquisita gama de productos de fabricación propia para que te sigas 
+                cuidando en casa.
+            </P>
         </section>
 
         <section class="fotos2 d-flex flex-row justify-content-around flex-wrap bg-dark m-3 p-3">
-            <img src="./img/peluqueria-local-1.jpg" class="rounded float-start" alt="peluqueria1">
-            <img src="./img/peluqueria-local-2.jpg" class="rounded mx-auto d-block" alt="peluqueria2">
-            <img src="./img/peluqueria-local-3.jpg" class="rounded float-end" alt="peluqueria3">
+            <img src="./img/peluqueria-local-1.jpg" class="rounded float-start mb-2" alt="peluqueria1">
+            <img src="./img/peluqueria-local-2.jpg" class="rounded mx-auto d-block mt-2 mb-2" alt="peluqueria2">
+            <img src="./img/peluqueria-local-3.jpg" class="rounded float-end mt-2" alt="peluqueria3">
         </section>
        
         <section class="bg-dark servicios m-2  p-3 m-3">
             <h2 class="text-center mt-2">SERVICIOS</h2>
-            <ul class="list-group m-2 p-2 d-flex flex-row flex-wrap justify-content-around">
-                <li class="list-group-item">Servicio 1</li>
-                <li class="list-group-item">Servicio 2</li>
-                <li class="list-group-item">Servicio 3</li>
-                <li class="list-group-item">Servicio 4</li>
-                <li class="list-group-item">Servicio 5</li>
+            <ul class="list-group m-2 p-2 d-flex flex-row flex-wrap justify-content-around text-center">
+                <li class="list-group-item rounded m-2">CORTES EXCLUSIVOS</li>
+                <li class="list-group-item rounded m-2">LAVADOS Y MASAJES</li>
+                <li class="list-group-item rounded m-2">TINTURA Y REFLEJOS</li>
+                <li class="list-group-item rounded m-2">MANTENIMIENTO DEL CABELLO</li>
+                <li class="list-group-item rounded m-2">APLICACIONES ESPECIALES</li>
             </ul>
         </section>
     </main>
 
     <!-- footer -->
-    <footer class="text-center bg-secondary bg-gradient bg-opacity-50 footer">
+    <footer class="text-center footer">
         <div class="container mt-2 mb-2">
             <div class="row">
                 <div class="col-md-6 footer-col">
@@ -128,22 +127,28 @@
                     <h3 class="fw-bold">Redes</h3>
                     <ul class="list-inline">
                         <li class="m-4">
-                            <a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.jpg"
+                            <a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.png"
                                     alt="facebook"></a>
                         </li>
                         <li class="m-4">
-                            <a href="https://twitter.com/" target="_blank"><img src="./img/twitter.jpg"
+                            <a href="https://twitter.com/" target="_blank"><img src="./img/twitter.png"
                                     alt="twitter"></a>
                         </li>
                         <li class="m-4">
-                            <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.jpg"
+                            <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png"
                                     alt="instagram"></a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-3 footer-col">
-                    <h3>Contacto Telefonico o via Mail.</h3>
-                    <p>Telefono Celular: 123456789 Email: vicky@gmail.com</p>
+                    <h2>CONTACTO</h2>
+                    <p>Consultas y Reservas</p>                    
+                    <ul class="p-0">
+                        <li class="m-4"><a href="tel:3518956371"><img src="./img/Phone_30029.png" alt="icono de telefono"> 0351-8956371</a></li>
+                        <li class="m-4"><a href="https://wa.me/&lt;35189563716&gt;/?text=Hola. Quisiera consultar sobre la cabaña" target="_blank" rel="noopener"><img src="./img/Whatsapp_37229 (1).png" alt="icono de whatsapp"></a></li>
+                        <li class="m-4"><a href="mailto:vicky@gmail.com"><img src="./img/Mail_icon-icons.com_76887.png" alt="icono de email"> vicky@gmail.com</a></li>
+                    </ul>
+                </section>
                 </div>
             </div>
         </div>
