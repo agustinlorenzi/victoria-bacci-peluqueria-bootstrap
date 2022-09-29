@@ -114,9 +114,19 @@ h3 {
     align-items: center;
 }
 
+/* hover boton de ver mas de productos */
+
 .btn:hover {
     background-color: burlywood;
     color: blue;
+}
+
+/* hover botones del menu en el header */
+
+.navbar li:hover{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 10%;
 }
 
 /* clases para contacto */
