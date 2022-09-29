@@ -90,11 +90,9 @@ body{
 .main-contacto {
     position: relative;
     top: 95px;
-    height: 82vh;    
+    height: auto;    
     width: 100vw;
     overflow-y: hidden;
-    display: flex;
-    flex-direction: column;
 }
 
 
@@ -136,9 +134,11 @@ h3 {
 
 /* medias query */
 
-@media (min-width: 768px) {     
+@media (min-width: 768px) { 
     
-   
+    .main-contacto{
+        min-height: 67vh;
+    }
     
     .input-group{
         width: 60vw;        
@@ -168,6 +168,7 @@ h3 {
         width: 40vw;
     }
 }
+
 
 @media (min-width: 1024px) {
 
@@ -200,9 +201,8 @@ h3 {
         position: relative;
         top: 110px;               
     }
-
-
 }
+
 
 @media (min-width: 1366px) {
 
